@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MeliTerra — Movimiento de tierra y servicios agrícolas en Melipilla</title>
+  <meta name="description" content="Movimientos de tierra, reparación de caminos privados, arado y preparación de tierras agrícolas, paisajismo y riego tecnificado. Servicio local en Melipilla y alrededores.">
+  <meta name="theme-color" content="#27652f">
+  <meta property="og:title" content="MeliTerra — Movimiento de tierra en Melipilla">
+  <meta property="og:description" content="Movimientos de tierra, caminos privados, arado agrícola, paisajismo y riego tecnificado. Servicio local en Melipilla y alrededores.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <noscript><style>.reveal { opacity: 1 !important; transform: none !important; } .hero-panel > * { opacity: 1 !important; transform: none !important; }</style></noscript>
+</head>
+<body>
+<!-- MELITERRA / DIRECTION CONTRACT
+THESIS: A category-standard landing for a local machinery/land-services company, executed at high fidelity, that turns "movimientos de tierra" into trust and a one-message WhatsApp quote. It refuses the themed campo-newspaper world the user rejected and the whimsical challengers; no irony, no thematic quirks.
+OWN-WORLD: Warm cream ground and deep agricultural green ink (the user's binding color) with soil-ochre accents; condensed industrial display caps (Barlow Condensed) over a clean Inter body; hairline rules, generous whitespace, soft shadows only; green carries every primary action.
+STORY: A landowner or manager in Melipilla understands in seconds that MeliTerra works their land end to end (soil, roads, gardens, irrigation), that it is local and reachable, and that the next step is one WhatsApp message.
+FIRST VIEWPORT: Split hero. Left: bold display headline, one-line offer, five-service checklist with green checks, green "Cotizar por WhatsApp" CTA. Right: full-bleed photo of a tractor working the field with a floating location badge. Navbar above with logo, anchors, and a light/dark toggle.
+FORM: Category-standard landing chosen by the user over the dealt direction (seed 3f1abb72); the canon is the commitment. FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md -->
+  <a class="skip-link visually-hidden-focusable" href="#inicio">Saltar al contenido</a>
+
+  <header class="site-header" id="topo">
+    <nav class="navbar navbar-expand-lg" aria-label="Principal">
+      <div class="container">
+        <a class="navbar-brand" href="#inicio">
+          <img src="assets/logo.svg" alt="" width="40" height="40">
+          <span class="brand-text">
+            <span class="brand-name">MeliTerra</span>
+            <span class="brand-sub">Melipilla · Chile</span>
+          </span>
+        </a>
+        <div class="d-flex align-items-center gap-2 order-lg-2">
+          <button class="btn btn-icon theme-toggle" type="button" aria-label="Cambiar a modo oscuro" title="Cambiar tema">
+            <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+          </button>
+          <a class="btn btn-primary btn-wa-nav d-none d-sm-inline-flex align-items-center gap-2" href="https://wa.me/56998122138?text=Hola%20MeliTerra%2C%20quiero%20cotizar%20un%20servicio" target="_blank" rel="noopener">
+            <i class="bi bi-whatsapp" aria-hidden="true"></i> Cotizar
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav ms-lg-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="row g-0 align-items-stretch hero-grid">
+          <div class="col-lg-6 hero-panel">
+            <h1 class="hero-title">Preparamos el terreno para lo que viene</h1>
+            <p class="hero-lead">
+              Movimientos de tierra, caminos privados, preparación agrícola, paisajismo y riego tecnificado.
+              Servicio local, cercano y con respuesta rápida en Melipilla y alrededores.
+            </p>
+            <ul class="hero-list list-unstyled">
+              <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Movimientos de tierra</li>
+              <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Reparación de caminos privados</li>
+              <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Arado y preparación de tierras agrícolas</li>
+              <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Paisajismo y jardinería</li>
+              <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Riego tecnificado</li>
+            </ul>
+            <div class="hero-actions d-flex flex-wrap align-items-center gap-3">
+              <a class="btn btn-primary btn-lg" href="https://wa.me/56998122138?text=Hola%20MeliTerra%2C%20quiero%20cotizar%20un%20servicio" target="_blank" rel="noopener">
+                <i class="bi bi-whatsapp" aria-hidden="true"></i> Cotizar por WhatsApp
+              </a>
+              <a class="btn btn-link btn-lg" href="#servicios">Ver servicios</a>
+            </div>
+          </div>
+          <div class="col-lg-6 hero-media">
+            <img src="assets/img/hero-tractor.jpg" alt="Tractor arando un campo en línea recta" class="hero-img">
+            <div class="hero-badge">
+              <span class="hero-badge-icon"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i></span>
+              <span>
+                <strong>Melipilla y alrededores</strong>
+                <small>María Pinto · Curacaví · Alhué · El Monte · Talagante</small>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FRANJA DE COBERTURA -->
+    <section class="coverage" aria-label="Cobertura">
+      <div class="container">
+        <ul class="coverage-list list-unstyled">
+          <li><i class="bi bi-check2" aria-hidden="true"></i> Melipilla</li>
+          <li><i class="bi bi-check2" aria-hidden="true"></i> María Pinto</li>
+          <li><i class="bi bi-check2" aria-hidden="true"></i> Curacaví</li>
+          <li><i class="bi bi-check2" aria-hidden="true"></i> Alhué</li>
+          <li><i class="bi bi-check2" aria-hidden="true"></i> El Monte</li>
+          <li><i class="bi bi-check2" aria-hidden="true"></i> Talagante</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <h2 class="section-title">Lo que hacemos en el terreno</h2>
+
+        <article class="service-feature reveal">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6">
+              <img src="assets/img/movimiento.jpg" alt="Retroexcavadora amarilla trabajando sobre suelo de tierra" class="service-feature-img" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <div class="service-feature-body">
+                <h3>Movimientos de tierra</h3>
+                <p>Nivelación, excavación, rellenos y perfilado de terrenos para preparar el suelo como tu proyecto lo necesita, ya sea para construir, sembrar o urbanizar.</p>
+                <a class="btn btn-outline-primary" href="https://wa.me/56998122138?text=Hola%20MeliTerra%2C%20quiero%20cotizar%3A%20Movimientos%20de%20tierra" target="_blank" rel="noopener">
+                  Cotizar este servicio <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="row g-4 service-grid">
+          <div class="col-md-6">
+            <article class="service-card reveal">
+              <img src="assets/img/caminos.jpg" alt="Camino rural de tierra bordeado por campos verdes" class="service-card-img" loading="lazy">
+              <div class="service-card-body">
+                <h3>Reparación de caminos privados</h3>
+                <p>Mantención, reperfilado y mejoramiento de caminos de acceso y huellas privadas para que el tránsito sea seguro en toda época del año.</p>
+                <a class="btn btn-outline-primary" href="https://wa.me/56998122138?text=Hola%20MeliTerra%2C%20quiero%20cotizar%3A%20Reparaci%C3%B3n%20de%20caminos%20privados" target="_blank" rel="noopener">
+                  Cotizar este servicio <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article class="service-card reveal">
+              <img src="assets/img/arado.jpg" alt="Tractor verde y naranja arando un campo de tierra marrón" class="service-card-img" loading="lazy">
+              <div class="service-card-body">
+                <h3>Arado y preparación de tierras agrícolas</h3>
+                <p>Arado, rastra y preparación de suelo para cultivos, viñedos y huertos, dejando la tierra lista para sembrar.</p>
+                <a class="btn btn-outline-primary" href="https://wa.me/56998122138?text=Hola%20MeliTerra%2C%20quiero%20cotizar%3A%20Arado%20y%20preparaci%C3%B3n%20de%20tierras%20agr%C3%ADcolas" target="_blank" rel="noopener">
+                  Cotizar este servicio <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article class="service-card reveal">
+              <img src="assets/img/paisajismo.jpg" alt="Aspersor regando un jardín junto a un árbol" class="service-card-img" loading="lazy">
+              <div class="service-card-body">
+                <h3>Paisajismo y jardinería</h3>
+                <p>Diseño y mantención de áreas verdes, jardines y espacios exteriores, con cuidado y terminaciones limpias.</p>
+                <a class="btn btn-outline-primary" href="https://wa.me/56998122138?text=Hola%20MeliTerra%2C%20quiero%20cotizar%3A%20Paisajismo%20y%20jardiner%C3%ADa" target="_blank" rel="noopener">
+                  Cotizar este servicio <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article class="service-card reveal">
+              <img src="assets/img/riego.jpg" alt="Aspersores de riego tecnificado regando un campo al atardecer" class="service-card-img" loading="lazy">
+              <div class="service-card-body">
+                <h3>Riego tecnificado</h3>
+                <p>Instalación y mantención de sistemas de riego tecnificado y por goteo para optimizar el agua y cuidar tus cultivos.</p>
+                <a class="btn btn-outline-primary" href="https://wa.me/56998122138?text=Hola%20MeliTerra%2C%20quiero%20cotizar%3A%20Riego%20tecnificado" target="_blank" rel="noopener">
+                  Cotizar este servicio <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section section-alt" id="nosotros">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <h2 class="section-title">Somos de Melipilla, trabajamos cerca</h2>
+            <p class="section-lead">
+              MeliTerra es una empresa de servicios de terreno con base en Melipilla. Atendemos parcelas, chacras, fundos y
+              comunidades de la zona con trato directo y cercano: hablas con quien hace el trabajo y la cotización llega rápido,
+              por WhatsApp.
+            </p>
+            <ul class="about-list list-unstyled">
+              <li><i class="bi bi-geo-alt" aria-hidden="true"></i> Cobertura en Melipilla y comunas vecinas</li>
+              <li><i class="bi bi-chat-dots" aria-hidden="true"></i> Cotización directa por WhatsApp</li>
+              <li><i class="bi bi-flower2" aria-hidden="true"></i> Del suelo al jardín: un solo proveedor</li>
+              <li><i class="bi bi-clock" aria-hidden="true"></i> Respuesta rápida para tu terreno</li>
+            </ul>
+          </div>
+          <div class="col-lg-5">
+            <div class="quote-card">
+              <span class="quote-mark" aria-hidden="true"><i class="bi bi-quote"></i></span>
+              <blockquote>
+                <p>“Necesitamos el terreno listo. Usted nos dice qué quiere y nosotros lo dejamos funcionando.”</p>
+              </blockquote>
+              <footer>Equipo MeliTerra</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <h2 class="section-title">Trabajo en terreno</h2>
+        <div class="row g-3 gallery-grid">
+          <figure class="col-6 col-md-4 gallery-item reveal">
+            <img src="assets/img/hero-tractor.jpg" alt="Tractor trabajando un campo" loading="lazy">
+            <figcaption>Arado en terreno</figcaption>
+          </figure>
+          <figure class="col-6 col-md-4 gallery-item reveal">
+            <img src="assets/img/movimiento.jpg" alt="Retroexcavadora moviendo tierra" loading="lazy">
+            <figcaption>Movimiento de tierra</figcaption>
+          </figure>
+          <figure class="col-6 col-md-4 gallery-item reveal">
+            <img src="assets/img/caminos.jpg" alt="Camino rural de tierra" loading="lazy">
+            <figcaption>Caminos privados</figcaption>
+          </figure>
+          <figure class="col-6 col-md-4 gallery-item reveal">
+            <img src="assets/img/arado.jpg" alt="Tractor arando la tierra" loading="lazy">
+            <figcaption>Preparación agrícola</figcaption>
+          </figure>
+          <figure class="col-6 col-md-4 gallery-item reveal">
+            <img src="assets/img/paisajismo.jpg" alt="Jardín regado por aspersor" loading="lazy">
+            <figcaption>Paisajismo</figcaption>
+          </figure>
+          <figure class="col-6 col-md-4 gallery-item reveal">
+            <img src="assets/img/riego.jpg" alt="Riego tecnificado en campo" loading="lazy">
+            <figcaption>Riego tecnificado</figcaption>
+          </figure>
+        </div>
+        <p class="gallery-note text-body-secondary">Imágenes referenciales.</p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section-alt" id="contacto">
+      <div class="container">
+        <h2 class="section-title">Hablemos de tu terreno</h2>
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <p class="section-lead">Cuéntanos qué necesitas y te respondemos con una cotización. El canal más rápido es WhatsApp.</p>
+            <ul class="contact-list list-unstyled">
+              <li>
+                <a class="contact-item" href="https://wa.me/56998122138" target="_blank" rel="noopener">
+                  <span class="contact-icon"><i class="bi bi-whatsapp" aria-hidden="true"></i></span>
+                  <span>
+                    <strong>WhatsApp</strong>
+                    <span>+56 9 9812 2138</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="contact-item" href="tel:+56998122138">
+                  <span class="contact-icon"><i class="bi bi-telephone" aria-hidden="true"></i></span>
+                  <span>
+                    <strong>Teléfono</strong>
+                    <span>+56 9 9812 2138</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="contact-item" href="mailto:meliterrachile@gmail.com">
+                  <span class="contact-icon"><i class="bi bi-envelope" aria-hidden="true"></i></span>
+                  <span>
+                    <strong>Correo</strong>
+                    <span>meliterrachile@gmail.com</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <span class="contact-item">
+                  <span class="contact-icon"><i class="bi bi-geo-alt" aria-hidden="true"></i></span>
+                  <span>
+                    <strong>Zona</strong>
+                    <span>Melipilla y alrededores</span>
+                  </span>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-7">
+            <form class="quote-form" id="quoteForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="fNombre">Nombre</label>
+                  <input class="form-control" id="fNombre" name="nombre" type="text" required autocomplete="name" placeholder="Tu nombre">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="fTelefono">Teléfono / WhatsApp</label>
+                  <input class="form-control" id="fTelefono" name="telefono" type="tel" required autocomplete="tel" placeholder="+56 9 ...">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="fServicio">Servicio que necesitas</label>
+                  <select class="form-select" id="fServicio" name="servicio">
+                    <option value="Movimientos de tierra">Movimientos de tierra</option>
+                    <option value="Reparación de caminos privados">Reparación de caminos privados</option>
+                    <option value="Arado y preparación de tierras agrícolas">Arado y preparación de tierras agrícolas</option>
+                    <option value="Paisajismo y jardinería">Paisajismo y jardinería</option>
+                    <option value="Riego tecnificado">Riego tecnificado</option>
+                    <option value="Otro">Otro</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="fMensaje">Cuéntanos tu proyecto</label>
+                  <textarea class="form-control" id="fMensaje" name="mensaje" rows="4" placeholder="Ej: necesito nivelar un terreno de 2 hectáreas para sembrar..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary btn-lg w-100" type="submit">
+                    <i class="bi bi-whatsapp" aria-hidden="true"></i> Enviar por WhatsApp
+                  </button>
+                  <p class="form-hint text-body-secondary" role="status" aria-live="polite"></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-4">
+          <a class="navbar-brand" href="#inicio">
+            <img src="assets/logo.svg" alt="" width="36" height="36">
+            <span class="brand-text">
+              <span class="brand-name">MeliTerra</span>
+              <span class="brand-sub">Movimiento de tierra y servicios agrícolas</span>
+            </span>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <ul class="footer-links list-unstyled">
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <p class="footer-contact mb-1"><i class="bi bi-whatsapp" aria-hidden="true"></i> +56 9 9812 2138</p>
+          <p class="footer-contact mb-0"><i class="bi bi-envelope" aria-hidden="true"></i> meliterrachile@gmail.com</p>
+        </div>
+      </div>
+      <hr class="footer-rule">
+      <p class="footer-copy mb-0">© 2026 MeliTerra · Melipilla, Chile. Imágenes referenciales.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/56998122138?text=Hola%20MeliTerra%2C%20quiero%20cotizar%20un%20servicio" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp">
+    <i class="bi bi-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
