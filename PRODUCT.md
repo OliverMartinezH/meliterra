@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Static HTML + CSS + vanilla JS with Bootstrap 5.3 via CDN. Single landing page, no build step. Light/dark theme toggle via `data-bs-theme`. Decided with the user; later expansion to a headless CMS is planned but not part of this build.
+Static HTML + CSS + vanilla JS with Bootstrap 5.3 via CDN. Single landing page, no build step. Light theme only (`data-bs-theme="light"`), warm cream palette with a mustard-orange accent reserved for quote CTAs (visual refresh by friend Claudio, 2026-08); later expansion to a headless CMS is planned but not part of this build.
 
 ## Users
 
@@ -32,7 +32,7 @@ Five services: movimientos de tierra, reparación de caminos privados, arado y p
 
 ## Brand Commitments
 
-Name: MeliTerra. Green is a binding brand color and must appear throughout (user: "no olvides el verde"). No logo asset exists; a simple SVG logo will be proposed. No tagline or slogan confirmed.
+Name: MeliTerra. Green is a binding brand color and must appear throughout (user: "no olvides el verde"). No logo asset exists; a simple SVG logo will be proposed. No tagline or slogan confirmed. 2026-08 visual refresh: warm cream palette with a mustard-orange accent (`#e8912d`) reserved exclusively for the "Cotizar"/"Enviar por WhatsApp" CTAs, serif titles (Fraunces) over Manrope body, light theme only.
 
 Visual direction (committed): the category-standard professional landing for machinery/earthmoving service companies, executed at high fidelity. The user explicitly rejected a themed "campo newspaper/classifieds" direction ("nada de diario del campo") and the whimsical challengers; reference bar is Chilean machinery companies' sites. No ironic or thematic quirks: clean, trustworthy, equipment-focused.
 
