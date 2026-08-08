@@ -362,7 +362,7 @@ p {
   max-width: 52ch;
 }
 
-.service-grid { gap: 2rem; }
+.service-grid { align-items: stretch; --bs-gutter-x: 2rem; --bs-gutter-y: 2rem; }
 .service-card {
   height: 100%;
   display: flex;
