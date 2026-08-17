@@ -1,6 +1,6 @@
 /* ============================================================
    MeliTerra — script
-   Navbar, reveal, scrollspy y formulario → WhatsApp
+   Navbar, reveal, scrollspy y formulario → Email
    ============================================================ */
 (function () {
   "use strict";
@@ -58,7 +58,7 @@
   window.addEventListener("scroll", spy, { passive: true });
   spy();
 
-  /* ---------- Formulario → WhatsApp ---------- */
+  /* ---------- Formulario → Email ---------- */
   var form = document.getElementById("quoteForm");
   if (form) {
     form.addEventListener("submit", function (e) {
@@ -74,14 +74,15 @@
         return;
       }
 
+      var subject = "Cotización MeliTerra - " + servicio;
       var body = "Hola MeliTerra, quiero cotizar un servicio.%0A%0A"
         + "Nombre: " + encodeURIComponent(nombre) + "%0A"
         + "Teléfono: " + encodeURIComponent(telefono) + "%0A"
         + "Servicio: " + encodeURIComponent(servicio)
         + (mensaje ? "%0AMensaje: " + encodeURIComponent(mensaje) : "");
 
-      window.open("https://wa.me/56998122138?text=" + body, "_blank", "noopener");
-      hint.textContent = "Se abrió WhatsApp con tu mensaje. ¡Gracias por escribirnos!";
+      window.location.href = "mailto:meliterrachile@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + body;
+      hint.textContent = "Se abrió tu correo con el mensaje. ¡Gracias por escribirnos!";
     });
   }
 })();
