@@ -51,6 +51,9 @@
 - [x] **3b.3.** Mantener botón flotante WhatsApp (feedback usuario)
 - [x] **3b.4.** Corregir contraste de texto contacto en footer
 - [x] **3b.5.** Cambiar caption hero a "Solicitar cotización"
+- [x] **3b.6.** Formulario de contacto envía email (abre en nueva pestaña)
+- [x] **3b.7.** Quitar referencia a WhatsApp del texto "Nosotros"
+- [x] **3b.8.** Corregir footer: restaurar teléfono, quitar email duplicado
 
 ### Phase 3c: Gobernanza
 - [x] **3c.1.** Crear archivos de gobernanza (okk-init)
@@ -76,6 +79,7 @@
 
 * **17/08/2026** — Landing page completa con SEO técnico, galería de 17 fotos y 6 videos. Desplegada en `meliterra.cl` con GitHub Pages.
 * **17/08/2026** — Botones CTA cambiados a email (excepto flotante WhatsApp). Gobernanza okk-init creada. Footer contraste corregido.
+* **17/08/2026** — Formulario envía email en nueva pestaña. Texto "Nosotros" limpiado. Footer teléfono restaurado.
 
 ---
 

@@ -46,3 +46,8 @@
   * `AGENTS.md` — reglas y stack
   * `progress.md` — checklist
   * `history.md` — historial
+
+* **17/08/2026 22:00** — Phase 3d: Formulario & Footer (complete)
+  * Formulario envía email (mailto:) en nueva pestaña
+  * Texto "Nosotros" limpiado (sin referencia a WhatsApp)
+  * Footer: teléfono restaurado, email duplicado eliminado
