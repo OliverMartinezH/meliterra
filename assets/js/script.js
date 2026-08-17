@@ -81,7 +81,7 @@
         + "Servicio: " + encodeURIComponent(servicio)
         + (mensaje ? "%0AMensaje: " + encodeURIComponent(mensaje) : "");
 
-      window.location.href = "mailto:meliterrachile@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + body;
+      window.open("mailto:meliterrachile@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + body, "_blank");
       hint.textContent = "Se abrió tu correo con el mensaje. ¡Gracias por escribirnos!";
     });
   }
