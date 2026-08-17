@@ -557,12 +557,12 @@ a.contact-item:hover {
 
 .site-footer {
   background: #1c2a20;
-  color: #c7d4cc;
+  color: #d8e4dc;
   padding: 3rem 0 1.6rem;
 }
 .site-footer .navbar-brand { margin: 0; }
 .site-footer .brand-name { color: #eef5ef; }
-.site-footer .brand-sub { color: #9db3a5; }
+.site-footer .brand-sub { color: #b0c4b5; }
 .footer-links {
   display: flex;
   flex-wrap: wrap;
@@ -570,14 +570,14 @@ a.contact-item:hover {
   margin: 0;
 }
 .footer-links a {
-  color: #c7d4cc;
+  color: #d8e4dc;
   text-decoration: none;
   font-weight: 500;
 }
 .footer-links a:hover { color: #7cc986; text-decoration: underline; text-underline-offset: 3px; }
 .footer-contact i { color: #7cc986; margin-right: .4rem; }
 .footer-rule { border-color: rgba(255, 255, 255, .12); margin: 1.6rem 0 1rem; }
-.footer-copy { font-size: .85rem; color: #93a79a; }
+.footer-copy { font-size: .85rem; color: #a8b8ad; }
 
 /* ---------- WhatsApp flotante ---------- */
 
