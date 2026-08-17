@@ -40,6 +40,24 @@
 - [x] **3.5.** Crear galería con 17 fotos + captions keyword-rich
 - [x] **3.6.** Comprimir 6 videos (35MB → 20MB)
 - [x] **3.7.** Integrar videos como subsección en galería
+- [x] **3.8.** Mover galería a `galeria.html` (página separada)
+- [x] **3.9.** Agregar sección de videos en galería
+- [x] **3.10.** Quitar CTA galería de landing page
+- [x] **3.11.** Quitar link "Videos" del navbar
+
+### Phase 3b: UX & Contacto
+- [x] **3b.1.** Cambiar botones CTA de WhatsApp a email (`mailto:`)
+- [x] **3b.2.** Actualizar iconos de WhatsApp a email en navbar, hero, contacto
+- [x] **3b.3.** Mantener botón flotante WhatsApp (feedback usuario)
+- [x] **3b.4.** Corregir contraste de texto contacto en footer
+- [x] **3b.5.** Cambiar caption hero a "Solicitar cotización"
+
+### Phase 3c: Gobernanza
+- [x] **3c.1.** Crear archivos de gobernanza (okk-init)
+- [x] **3c.2.** `Proyecto MeliTerra.md` — contexto funcional
+- [x] **3c.3.** `AGENTS.md` — reglas y stack
+- [x] **3c.4.** `progress.md` — checklist de implementación
+- [x] **3c.5.** `history.md` — historial de fases
 
 ### Phase 4: SEO Off-Page (Pendiente)
 - [ ] **4.1.** Crear Google Business Profile
@@ -57,6 +75,7 @@
 ## 3. Recent Iterations
 
 * **17/08/2026** — Landing page completa con SEO técnico, galería de 17 fotos y 6 videos. Desplegada en `meliterra.cl` con GitHub Pages.
+* **17/08/2026** — Botones CTA cambiados a email (excepto flotante WhatsApp). Gobernanza okk-init creada. Footer contraste corregido.
 
 ---
 

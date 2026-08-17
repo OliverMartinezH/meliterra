@@ -32,3 +32,17 @@
   * 6 videos comprimidos (~20MB)
   * Galería con captions keyword-rich
   * Videos integrados como subsección
+
+* **17/08/2026 21:00** — Phase 3b: UX & Contacto (complete)
+  * Botones CTA cambiados a email (mailto:)
+  * Iconos actualizados de WhatsApp a email
+  * Botón flotante WhatsApp mantenido (feedback)
+  * Footer contraste de texto corregido
+  * Caption hero: "Solicitar cotización"
+
+* **17/08/2026 21:30** — Phase 3c: Gobernanza (complete)
+  * Archivos okk-init creados
+  * `Proyecto MeliTerra.md` — contexto funcional
+  * `AGENTS.md` — reglas y stack
+  * `progress.md` — checklist
+  * `history.md` — historial
