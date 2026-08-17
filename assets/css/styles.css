@@ -575,6 +575,7 @@ a.contact-item:hover {
   font-weight: 500;
 }
 .footer-links a:hover { color: #7cc986; text-decoration: underline; text-underline-offset: 3px; }
+.footer-contact { color: #d8e4dc; font-weight: 500; }
 .footer-contact i { color: #7cc986; margin-right: .4rem; }
 .footer-rule { border-color: rgba(255, 255, 255, .12); margin: 1.6rem 0 1rem; }
 .footer-copy { font-size: .85rem; color: #a8b8ad; }
