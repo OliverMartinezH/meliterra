@@ -10,7 +10,7 @@
 
 * **Project:** MeliTerra (HTML5 + CSS3 + Bootstrap 5.3.3 + GitHub Pages)
 * **Current Phase:** Phase 3 — Content Complete
-* **Last milestone:** 09/11/2026 — Depuración de servicios, galería y videos
+* **Last milestone:** 09/11/2026 — Portada equilibrada Fumigaciones + Jardinería
 
 ---
 
@@ -77,6 +77,14 @@
 - [x] **3f.4.** Eliminar assets sin uso (videos, imágenes de movimiento y galería retiradas)
 - [x] **3f.5.** Verificar layout desktop/móvil y enlaces locales
 
+### Phase 3g: Portada 50/50 Fumigaciones + Jardinería
+- [x] **3g.1.** Hero con dos tiles 50/50 (fumigaciones y jardinería) y copy equilibrado
+- [x] **3g.2.** Servicios reducidos a 2 cards 50/50; riego tecnificado dentro de Jardinería
+- [x] **3g.3.** Actualizar metadatos, Schema.org y formulario a los 2 servicios
+- [x] **3g.4.** Galería: hero con foto de fumigación y grilla de jardinería
+- [x] **3g.5.** Limpiar DESIGN.md y PRODUCT.md de secciones y servicios obsoletos
+- [x] **3g.6.** Verificar layout desktop/móvil y enlaces locales
+
 ### Phase 4: SEO Off-Page (Pendiente)
 - [ ] **4.1.** Crear Google Business Profile
 - [ ] **4.2.** Crear blog SEO (artículos de servicio)
@@ -97,6 +105,7 @@
 * **17/08/2026** — Formulario envía email en nueva pestaña. Texto "Nosotros" limpiado. Footer teléfono restaurado.
 * **09/11/2026 01:05** — Portada reenfocada en fumigaciones con flyer optimizado (WebP + JPG). Se quitaron caminos y arado/maquinaria agrícola de `index.html` y `galeria.html`. Servicios actuales: Fumigaciones, Movimientos de tierra, Paisajismo y jardinería, Riego tecnificado.
 * **09/11/2026 08:19** — Depuración: eliminado servicio Movimientos de tierra, sección de videos y assets sin uso. Galería reducida a 3 fotos (paisajismo, riego tecnificado, cultivo). Verificado en desktop y móvil, sin enlaces locales rotos.
+* **09/11/2026 08:38** — Portada equilibrada 50/50: hero con tiles Fumigaciones/Jardinería, servicios en 2 cards y riego dentro de Jardinería. Metadatos, Schema.org y formulario actualizados. DESIGN.md y PRODUCT.md limpios de servicios y secciones obsoletas.
 
 ---
 

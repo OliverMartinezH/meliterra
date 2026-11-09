@@ -65,3 +65,11 @@
   * Galería reducida a 3 imágenes: paisajismo, riego tecnificado y cultivo
   * Assets sin uso eliminados (6 videos, 4 imágenes de movimiento y 6 imágenes de galería)
   * Verificación en desktop y móvil; sin enlaces locales rotos
+
+* **09/11/2026 08:38** — Phase 3g: Portada 50/50 Fumigaciones + Jardinería (complete)
+  * Hero con dos tiles 50/50: foto de fumigación y foto de jardinería
+  * Servicios reducidos a 2 cards 50/50; riego tecnificado dentro de Jardinería
+  * Metadatos, Open Graph, Schema.org y formulario actualizados a los 2 servicios
+  * Galería con hero de fumigación y grilla de jardinería
+  * `DESIGN.md` y `PRODUCT.md` limpiados de servicios y secciones obsoletas
+  * Verificación en desktop y móvil; sin enlaces locales rotos

@@ -12,28 +12,28 @@ Landing page estática para MeliTerra, empresa de fumigaciones y servicios para 
 
 ## Objetivo del producto
 
-Generar leads calificados para servicios de fumigaciones, paisajismo y riego tecnificado en la zona de Melipilla y alrededores.
+Generar leads calificados para fumigaciones y jardinería (paisajismo, áreas verdes y riego tecnificado) en la zona de Melipilla y alrededores.
 
 ## Actores
 
 | Rol | Qué puede hacer |
 |-----|-----------------|
-| **Visitante** | Ver servicios, galería, cotizar por WhatsApp |
+| **Visitante** | Ver servicios, galería, cotizar por correo o WhatsApp |
 | **Propietario** | Actualizar contenido, agregar fotos, revisar tráfico |
 
 ## Reglas de negocio
 
-* WhatsApp es el canal principal de contacto (botón flotante + formulario)
-* Servicios: fumigaciones (control de pulgas, garrapatas y arañas en interior y exterior), paisajismo y jardinería, riego tecnificado
+* Cotización por correo (formulario y CTAs) con botón flotante de WhatsApp
+* Servicios: fumigaciones (control de pulgas, garrapatas y arañas en interior y exterior) y jardinería (paisajismo, mantención de áreas verdes y riego tecnificado)
 * Zona de cobertura: Melipilla, María Pinto, Curacaví, Alhué, El Monte, Talagante
-* Imágenes reales del trabajo en terreno
+* Imágenes referenciales del trabajo en terreno
 * SEO local con geo-localización en "Melipilla"
 
 ## Restricciones
 
 * Sin backend ni base de datos (estática)
 * Sin autenticación (público)
-* Sin formulario de cotización propio (redirige a WhatsApp)
+* Formulario de contacto que envía la cotización por correo (`mailto:`)
 * Contenido solo en español (es_CL)
 
 ## Módulos

@@ -1,6 +1,6 @@
 ---
 name: MeliTerra
-description: Landing page de servicios de terreno en Melipilla — movimientos de tierra, caminos, agricultura, paisajismo y riego.
+description: Landing page de fumigaciones, jardinería, paisajismo y riego tecnificado en Melipilla.
 colors:
   primary: "#27652f"
   primary-hover: "#1c4a22"
@@ -126,22 +126,18 @@ components:
     rounded: "{rounded.control}"
     borderColor: "{colors.border}"
     padding: "0.65rem 0.9rem"
-  hero-badge:
-    backgroundColor: "color-mix(in srgb, {colors.surface} 88%, transparent)"
-    rounded: "{rounded.md}"
-    padding: "0.85rem 1.1rem"
 ---
 
 # MeliTerra — Diseño
 
 ## Overview
 
-Landing de conversión (modo *Persuade*) para una empresa local de servicios de terreno en Melipilla. Categoría: landing profesional estándar de empresas de maquinaria/movimiento de tierra, ejecutada con alta fidelidad. La tesis es convertir "movimientos de tierra" en confianza y en una cotización de un solo mensaje por WhatsApp. Verde de marca (elección del usuario, vinculante) sobre tierra crema cálida; títulos serif editorial (Fraunces) sobre cuerpo limpio y moderno (Manrope); el naranja mostaza es el acento exclusivo de los CTAs de cotización. Tema claro único.
+Landing de conversión (modo *Persuade*) para MeliTerra, empresa local de fumigaciones y jardinería en Melipilla. La tesis es equilibrar fumigaciones y jardinería (paisajismo, áreas verdes y riego tecnificado) y convertir en una cotización por correo, con WhatsApp flotante como canal secundario. Verde de marca (elección del usuario, vinculante) sobre tierra crema cálida; títulos serif editorial (Fraunces) sobre cuerpo limpio y moderno (Manrope); el naranja mostaza es el acento exclusivo de los CTAs de cotización. Tema claro único.
 
 ## Colors
 
 - **Verde primario** `#27652f`: el color vinculante. Lleva checks, íconos, badges, enlaces y acentos de marca.
-- **Naranja mostaza** `#e8912d`: EXCLUSIVO de CTAs "Cotizar"/"Enviar por WhatsApp" (fondo de botón primario y relleno al hover del outline). Hover `#d67e1c`. Texto sobre naranja siempre `#1f2a1f` (contraste ≥ 4.5:1 verificado).
+- **Naranja mostaza** `#e8912d`: EXCLUSIVO de CTAs "Cotizar"/"Solicitar cotización" (fondo de botón primario y relleno al hover del outline). Hover `#d67e1c`. Texto sobre naranja siempre `#1f2a1f` (contraste ≥ 4.5:1 verificado).
 - **Naranja profundo** `#b45309`: borde y texto del botón outline de las tarjetas en reposo (contraste ≥ 4.5:1 sobre crema), que al hover rellena con el acento.
 - **Tierra crema** `#faf8f4` (fondo) y `#f1ede4` (secciones alternas, inputs), blanco `#ffffff` para superficies y tarjetas.
 - **Tinta**: `#1f2a1f` cuerpo, `#17351f` títulos, `#5a5f52` secundario (nunca gris puro).
@@ -159,11 +155,11 @@ Landing de conversión (modo *Persuade*) para una empresa local de servicios de 
 ## Layout
 
 - **Contenedor**: Bootstrap `.container` estándar; secciones con `padding-block: clamp(4rem, 8vw, 7rem)` (3.25rem en móvil).
-- **Hero dividido** (lg+): panel crema a la izquierda con título, lead, checklist de 5 servicios con checks verdes y CTA WhatsApp naranja; foto a full-bleed a la derecha con badge de ubicación flotante. En móvil el texto va primero, foto después. Sin overlay sobre la foto: el texto no va sobre la imagen.
+- **Hero dividido** (lg+): panel crema a la izquierda con título, lead, checklist de 4 puntos (2 por servicio) con checks verdes y CTA de cotización naranja; a la derecha, dos tiles 50/50 (Fumigaciones y Jardinería) con etiqueta y enlace a su tarjeta. En móvil el texto va primero y los tiles se apilan. Sin overlay de texto sobre las imágenes ni badge flotante.
 - **Franja de cobertura**: lista en flex-wrap centrada bajo el hero (Melipilla + 5 comunas).
-- **Servicios**: 1 feature editorial (imagen + cuerpo + CTA outline naranja) y grilla de 4 cards con imagen `aspect-ratio 4/3`.
+- **Servicios**: dos cards 50/50, Fumigaciones y Jardinería, con imagen, descripción, lista de incluidos y CTA outline naranja.
 - **Nosotros**: texto + lista de valores + tarjeta de cita (comilla).
-- **Contacto**: lista de canales + formulario → WhatsApp.
+- **Contacto**: lista de canales + formulario que arma la cotización por correo.
 - **Breakpoints**: Bootstrap (lg 992px, sm 576px); `scroll-margin-top 76px` en anclas; sticky header con blur. Ritmo alterno de fondos entre `#faf8f4` y `#f1ede4` al hacer scroll.
 
 ## Elevation & Depth
@@ -171,7 +167,6 @@ Landing de conversión (modo *Persuade*) para una empresa local de servicios de 
 - Sombras suaves: `0 4px 20px rgba(0,0,0,.06)` (card), `0 10px 30px rgba(50,42,22,.10)` (elevación/hover). En hover de cards `0 10px 30px rgba(0,0,0,.10)`.
 - CTAs naranja con glow propio: `0 6px 20px rgba(232,145,45,.35)` y sombra mayor al hover.
 - Header sticky con `backdrop-filter: blur(14px)` y `border-bottom` al hacer scroll (efecto específico, no decoración).
-- Badge del hero sobre foto con `backdrop-filter: blur(10px)` + `color-mix` 88% superficie.
 - Sin sombras duras de cero-blur ni halos de color.
 
 ## Shapes
@@ -187,14 +182,14 @@ Landing de conversión (modo *Persuade*) para una empresa local de servicios de 
 - **Botón outline**: borde y texto naranja, pill, hover relleno naranja con texto oscuro.
 - **Botón link**: verde subrayado (para acciones secundarias de navegación, no cotización).
 - **Tarjetas de servicio**: imagen `aspect-ratio 4/3` + cuerpo + CTA outline; hover eleva 4px con sombra mayor.
-- **Formulario**: inputs sobre `#f1ede4`, focus con anillo `rgba(232,145,45,.35)`; submit abre WhatsApp con mensaje armado.
+- **Formulario**: inputs sobre `#f1ede4`, focus con anillo `rgba(232,145,45,.35)`; submit abre el correo con la cotización armada.
 - **WhatsApp flotante**: círculo `#25d366` fijo abajo-derecha con pulso, excluido del motion si `prefers-reduced-motion`. Conserva el verde del canal.
 - **Galería**: imágenes `aspect-ratio 4/3` con caption en gradiente oscuro y "Imágenes referenciales."
 - **Imágenes**: todas con `filter: saturate(1.05) contrast(1.02)`.
 
 ## Do's and Don'ts
 
-- **Do**: el verde de marca en checks, íconos y acentos. El naranja mostaza SOLO en CTAs de cotización. Íconos de Bootstrap Icons (un solo trazo). Títulos serif Fraunces. Fotografías reales de terreno. Mensajes WhatsApp prellenados. Alt text descriptivo en español.
+- **Do**: el verde de marca en checks, íconos y acentos. El naranja mostaza SOLO en CTAs de cotización. Íconos de Bootstrap Icons (un solo trazo). Títulos serif Fraunces. Fotografías de terreno e imágenes referenciales. Correos de cotización prellenados y WhatsApp flotante. Alt text descriptivo en español.
 - **Do**: mantener contraste ≥ 4.5:1 en texto y botones (naranja siempre con texto oscuro).
 - **Don't**: inventar testimonios, precios, años de trayectoria o "maquinaria propia" no confirmada.
 - **Don't**: eyebrows/kickers sobre títulos, gradientes de texto, bordes laterales de color, sombras duras, glass decorativo, mono como disfraz técnico.

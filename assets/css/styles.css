@@ -60,8 +60,9 @@ body {
 }
 
 section[id],
-main[id] {
-  scroll-margin-top: 76px;
+main[id],
+article[id] {
+  scroll-margin-top: 96px;
 }
 
 ::selection {
@@ -282,58 +283,72 @@ p {
   height: 100%;
   object-fit: cover;
 }
-.hero-img-flyer {
-  object-fit: contain;
-  background: #f7f2e8;
-}
 
-.hero-badge {
+.hero-duo {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  min-height: 420px;
+  background: var(--mt-hero-media-bg);
+}
+.hero-tile {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+}
+.hero-tile + .hero-tile {
+  border-top: 1px solid rgba(255, 255, 255, .35);
+}
+.hero-tile-img {
   position: absolute;
-  left: 1.25rem;
-  bottom: 1.25rem;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .5s cubic-bezier(.22, .61, .36, 1);
+}
+.hero-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(12, 20, 14, .82), rgba(12, 20, 14, .18) 50%, transparent 78%);
+}
+.hero-tile:hover .hero-tile-img,
+.hero-tile:focus-visible .hero-tile-img {
+  transform: scale(1.05);
+}
+.hero-tile-label {
+  position: absolute;
+  z-index: 1;
+  left: 1.2rem;
+  bottom: 1.1rem;
   display: flex;
   align-items: center;
-  gap: .8rem;
-  max-width: calc(100% - 2.5rem);
-  padding: .85rem 1.1rem;
-  border-radius: .9rem;
-  background: color-mix(in srgb, var(--mt-surface) 88%, transparent);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--mt-border);
-  box-shadow: var(--mt-shadow-sm);
+  gap: .75rem;
 }
-.hero-badge-icon {
+.hero-tile-icon {
   flex: 0 0 auto;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: var(--bs-primary);
-  color: #fff;
-  font-size: 1.1rem;
+  background: var(--color-accent);
+  color: #1f2a1f;
+  font-size: 1.15rem;
 }
-.hero-badge strong { display: block; color: var(--mt-heading); }
-.hero-badge small { color: var(--mt-ink-muted); }
-
-@media (max-width: 991.98px) {
-  .hero-media-flyer {
-    display: flex;
-    flex-direction: column;
-    min-height: 0;
-  }
-  .hero-media-flyer .hero-img-flyer {
-    position: static;
-    height: auto;
-    aspect-ratio: 800 / 534;
-    padding-bottom: 0;
-  }
-  .hero-media-flyer .hero-badge {
-    position: static;
-    margin: 1rem;
-  }
+.hero-tile-label strong {
+  display: block;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.1;
+  color: #fff;
+}
+.hero-tile-label small {
+  color: rgba(255, 255, 255, .85);
+  font-size: .8rem;
 }
 
 /* ---------- Franja de cobertura ---------- */
@@ -401,6 +416,22 @@ p {
   color: var(--mt-ink-muted);
   flex: 1;
   margin: 0;
+}
+.service-points {
+  display: grid;
+  gap: .45rem;
+  margin: 0;
+}
+.service-points li {
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+  font-size: .95rem;
+  color: var(--mt-ink-muted);
+}
+.service-points i {
+  color: var(--bs-primary);
+  margin-top: .15rem;
 }
 .service-card-body .btn {
   align-self: flex-start;
@@ -664,6 +695,7 @@ a.contact-item:hover {
     box-shadow: var(--mt-shadow-sm);
   }
   .hero-media { min-height: 340px; }
+  .hero-duo { min-height: 380px; }
   .coverage-list { justify-content: flex-start; }
 }
 
@@ -671,6 +703,7 @@ a.contact-item:hover {
   .section { padding: 3.25rem 0; }
   .hero { padding-top: 1.5rem; }
   .hero-media { min-height: 280px; }
+  .hero-duo { min-height: 320px; }
   .gallery-item figcaption { font-size: .82rem; padding-top: 1.2rem; }
   .wa-float { width: 54px; height: 54px; font-size: 1.55rem; right: 1rem; bottom: 1rem; }
 }
