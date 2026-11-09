@@ -51,3 +51,10 @@
   * Formulario envía email (mailto:) en nueva pestaña
   * Texto "Nosotros" limpiado (sin referencia a WhatsApp)
   * Footer: teléfono restaurado, email duplicado eliminado
+
+* **09/11/2026 01:05** — Phase 3e: Enfoque Fumigaciones (complete)
+  * Hero de `index.html` reenfocado en fumigaciones
+  * Flyer optimizado a WebP + JPG (800px)
+  * Servicio Fumigaciones agregado en tarjeta y formulario
+  * Caminos y arado/maquinaria agrícola eliminados de `index.html` y `galeria.html`
+  * Meta tags, Open Graph y Schema.org actualizados

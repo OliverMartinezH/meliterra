@@ -282,6 +282,10 @@ p {
   height: 100%;
   object-fit: cover;
 }
+.hero-img-flyer {
+  object-fit: contain;
+  background: #f7f2e8;
+}
 
 .hero-badge {
   position: absolute;
@@ -313,6 +317,24 @@ p {
 }
 .hero-badge strong { display: block; color: var(--mt-heading); }
 .hero-badge small { color: var(--mt-ink-muted); }
+
+@media (max-width: 991.98px) {
+  .hero-media-flyer {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .hero-media-flyer .hero-img-flyer {
+    position: static;
+    height: auto;
+    aspect-ratio: 800 / 534;
+    padding-bottom: 0;
+  }
+  .hero-media-flyer .hero-badge {
+    position: static;
+    margin: 1rem;
+  }
+}
 
 /* ---------- Franja de cobertura ---------- */
 
@@ -384,6 +406,11 @@ p {
   aspect-ratio: 4 / 3;
   object-fit: cover;
   filter: saturate(1.05) contrast(1.02);
+}
+.service-card-img-contain {
+  object-fit: contain;
+  background: #f7f2e8;
+  filter: none;
 }
 .service-card-body {
   display: flex;

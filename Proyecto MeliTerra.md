@@ -8,11 +8,11 @@
 
 ## Visión
 
-Landing page estática para MeliTerra, empresa de servicios agrícolas y movimiento de tierra en Melipilla, Chile. Presencia web profesional con SEO local optimizado.
+Landing page estática para MeliTerra, empresa de fumigaciones y servicios para el hogar y el terreno en Melipilla, Chile. Presencia web profesional con SEO local optimizado.
 
 ## Objetivo del producto
 
-Generar leads qualificados a través de WhatsApp para servicios de movimiento de tierra, reparación de caminos, arado, paisajismo y riego tecnificado en la zona de Melipilla y alrededores.
+Generar leads calificados para servicios de fumigaciones, movimiento de tierra, paisajismo y riego tecnificado en la zona de Melipilla y alrededores.
 
 ## Actores
 
@@ -24,7 +24,7 @@ Generar leads qualificados a través de WhatsApp para servicios de movimiento de
 ## Reglas de negocio
 
 * WhatsApp es el canal principal de contacto (botón flotante + formulario)
-* Servicios: movimiento de tierra, reparación de caminos privados, arado y preparación de tierras agrícolas, paisajismo y jardinería, riego tecnificado
+* Servicios: fumigaciones (control de pulgas, garrapatas y arañas en interior y exterior), movimiento de tierra, paisajismo y jardinería, riego tecnificado
 * Zona de cobertura: Melipilla, María Pinto, Curacaví, Alhué, El Monte, Talagante
 * Imágenes y videos reales del trabajo en terreno
 * SEO local con geo-localización en "Melipilla"
@@ -41,7 +41,7 @@ Generar leads qualificados a través de WhatsApp para servicios de movimiento de
 | Módulo | Archivo | Contenido |
 |--------|---------|-----------|
 | Landing | `index.html` | Hero, servicios, nosotros, CTA galería, contacto |
-| Galería | `galeria.html` | 17 fotos + 6 videos en terreno |
+| Galería | `galeria.html` | Fotos y videos en terreno |
 | Assets | `assets/` | CSS, JS, imágenes (WebP+JPG), videos (MP4) |
 
 ## Roadmap

@@ -10,7 +10,7 @@
 
 * **Project:** MeliTerra (HTML5 + CSS3 + Bootstrap 5.3.3 + GitHub Pages)
 * **Current Phase:** Phase 3 — Content Complete
-* **Last milestone:** 17/08/2026 — Galería + Videos integrados
+* **Last milestone:** 09/11/2026 — Portada y servicio de fumigaciones
 
 ---
 
@@ -62,6 +62,14 @@
 - [x] **3c.4.** `progress.md` — checklist de implementación
 - [x] **3c.5.** `history.md` — historial de fases
 
+### Phase 3e: Enfoque Fumigaciones
+- [x] **3e.1.** Optimizar flyer de fumigaciones a WebP + JPG (800px)
+- [x] **3e.2.** Reescribir hero de `index.html` con foco en fumigaciones
+- [x] **3e.3.** Agregar servicio Fumigaciones (tarjeta y opción del formulario)
+- [x] **3e.4.** Quitar caminos y arado/maquinaria agrícola de `index.html` y `galeria.html`
+- [x] **3e.5.** Actualizar meta tags, Open Graph y Schema.org
+- [x] **3e.6.** Verificar layout en desktop y móvil
+
 ### Phase 4: SEO Off-Page (Pendiente)
 - [ ] **4.1.** Crear Google Business Profile
 - [ ] **4.2.** Crear blog SEO (artículos de servicio)
@@ -80,6 +88,7 @@
 * **17/08/2026** — Landing page completa con SEO técnico, galería de 17 fotos y 6 videos. Desplegada en `meliterra.cl` con GitHub Pages.
 * **17/08/2026** — Botones CTA cambiados a email (excepto flotante WhatsApp). Gobernanza okk-init creada. Footer contraste corregido.
 * **17/08/2026** — Formulario envía email en nueva pestaña. Texto "Nosotros" limpiado. Footer teléfono restaurado.
+* **09/11/2026 01:05** — Portada reenfocada en fumigaciones con flyer optimizado (WebP + JPG). Se quitaron caminos y arado/maquinaria agrícola de `index.html` y `galeria.html`. Servicios actuales: Fumigaciones, Movimientos de tierra, Paisajismo y jardinería, Riego tecnificado.
 
 ---
 
