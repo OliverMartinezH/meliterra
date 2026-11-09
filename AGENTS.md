@@ -32,7 +32,6 @@ MeliTerra es una landing page estática para una empresa de servicios agrícolas
 
 * Toda imagen debe tener `alt` con keyword + ubicación ("Melipilla")
 * Todo enlace externo debe tener `target="_blank" rel="noopener"`
-* Videos comprimidos ≤ 5MB cada uno
 * Imágenes: WebP + JPG fallback en `<picture>`
 * `fetchpriority="high"` en hero image (LCP)
 * Schema.org LocalBusiness en index.html
@@ -52,7 +51,6 @@ MeliTerra es una landing page estática para una empresa de servicios agrícolas
 * **Idioma:** Todo el contenido en español (es_CL)
 * **Archivos:** Nombres descriptivos en inglés, minúsculas, guiones (`arado-campo-01.jpg`)
 * **Imágenes:** Resize a 800px width, JPEG quality 78%, WebP quality 78%
-* **Videos:** H.264, CRF 28-32, 360p-480p, `faststart` flag
 * **CSS:** Custom en `assets/css/styles.css`, variables CSS para colores
 * **JS:** Vanilla en `assets/js/script.js`, sin dependencias
 * **Nav links:** Usar `#seccion` para intra-page, `pagina.html` para inter-page

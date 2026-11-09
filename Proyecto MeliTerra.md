@@ -12,21 +12,21 @@ Landing page estática para MeliTerra, empresa de fumigaciones y servicios para 
 
 ## Objetivo del producto
 
-Generar leads calificados para servicios de fumigaciones, movimiento de tierra, paisajismo y riego tecnificado en la zona de Melipilla y alrededores.
+Generar leads calificados para servicios de fumigaciones, paisajismo y riego tecnificado en la zona de Melipilla y alrededores.
 
 ## Actores
 
 | Rol | Qué puede hacer |
 |-----|-----------------|
-| **Visitante** | Ver servicios, galería, videos, cotizar por WhatsApp |
-| **Propietario** | Actualizar contenido, agregar fotos/videos, revisar tráfico |
+| **Visitante** | Ver servicios, galería, cotizar por WhatsApp |
+| **Propietario** | Actualizar contenido, agregar fotos, revisar tráfico |
 
 ## Reglas de negocio
 
 * WhatsApp es el canal principal de contacto (botón flotante + formulario)
-* Servicios: fumigaciones (control de pulgas, garrapatas y arañas en interior y exterior), movimiento de tierra, paisajismo y jardinería, riego tecnificado
+* Servicios: fumigaciones (control de pulgas, garrapatas y arañas en interior y exterior), paisajismo y jardinería, riego tecnificado
 * Zona de cobertura: Melipilla, María Pinto, Curacaví, Alhué, El Monte, Talagante
-* Imágenes y videos reales del trabajo en terreno
+* Imágenes reales del trabajo en terreno
 * SEO local con geo-localización en "Melipilla"
 
 ## Restricciones
@@ -41,15 +41,15 @@ Generar leads calificados para servicios de fumigaciones, movimiento de tierra, 
 | Módulo | Archivo | Contenido |
 |--------|---------|-----------|
 | Landing | `index.html` | Hero, servicios, nosotros, CTA galería, contacto |
-| Galería | `galeria.html` | Fotos y videos en terreno |
-| Assets | `assets/` | CSS, JS, imágenes (WebP+JPG), videos (MP4) |
+| Galería | `galeria.html` | Fotos en terreno |
+| Assets | `assets/` | CSS, JS, imágenes (WebP+JPG) |
 
 ## Roadmap
 
 1. ~~Landing page con servicios y contacto~~ ✅
 2. ~~SEO técnico (schema, meta, sitemap)~~ ✅
 3. ~~Galería de fotos optimizadas~~ ✅
-4. ~~Sección de videos comprimidos~~ ✅
+4. ~~Sección de videos comprimidos~~ (eliminada el 09/11/2026)
 5. Google Business Profile
 6. Blog SEO (artículos de servicio)
 7. Backlinks locales (directorio, municipalidad, gremios)

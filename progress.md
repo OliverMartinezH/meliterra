@@ -10,7 +10,7 @@
 
 * **Project:** MeliTerra (HTML5 + CSS3 + Bootstrap 5.3.3 + GitHub Pages)
 * **Current Phase:** Phase 3 — Content Complete
-* **Last milestone:** 09/11/2026 — Portada y servicio de fumigaciones
+* **Last milestone:** 09/11/2026 — Depuración de servicios, galería y videos
 
 ---
 
@@ -70,6 +70,13 @@
 - [x] **3e.5.** Actualizar meta tags, Open Graph y Schema.org
 - [x] **3e.6.** Verificar layout en desktop y móvil
 
+### Phase 3f: Depuración de servicios y galería
+- [x] **3f.1.** Quitar servicio Movimientos de tierra de landing, formulario, Schema.org y metadatos
+- [x] **3f.2.** Quitar sección de videos de galería y enlaces de navegación
+- [x] **3f.3.** Reducir galería a 3 imágenes (paisajismo, riego tecnificado, cultivo)
+- [x] **3f.4.** Eliminar assets sin uso (videos, imágenes de movimiento y galería retiradas)
+- [x] **3f.5.** Verificar layout desktop/móvil y enlaces locales
+
 ### Phase 4: SEO Off-Page (Pendiente)
 - [ ] **4.1.** Crear Google Business Profile
 - [ ] **4.2.** Crear blog SEO (artículos de servicio)
@@ -89,6 +96,7 @@
 * **17/08/2026** — Botones CTA cambiados a email (excepto flotante WhatsApp). Gobernanza okk-init creada. Footer contraste corregido.
 * **17/08/2026** — Formulario envía email en nueva pestaña. Texto "Nosotros" limpiado. Footer teléfono restaurado.
 * **09/11/2026 01:05** — Portada reenfocada en fumigaciones con flyer optimizado (WebP + JPG). Se quitaron caminos y arado/maquinaria agrícola de `index.html` y `galeria.html`. Servicios actuales: Fumigaciones, Movimientos de tierra, Paisajismo y jardinería, Riego tecnificado.
+* **09/11/2026 08:19** — Depuración: eliminado servicio Movimientos de tierra, sección de videos y assets sin uso. Galería reducida a 3 fotos (paisajismo, riego tecnificado, cultivo). Verificado en desktop y móvil, sin enlaces locales rotos.
 
 ---
 

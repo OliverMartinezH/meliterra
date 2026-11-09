@@ -58,3 +58,10 @@
   * Servicio Fumigaciones agregado en tarjeta y formulario
   * Caminos y arado/maquinaria agrícola eliminados de `index.html` y `galeria.html`
   * Meta tags, Open Graph y Schema.org actualizados
+
+* **09/11/2026 08:19** — Phase 3f: Depuración de servicios y galería (complete)
+  * Servicio Movimientos de tierra eliminado de landing, formulario, Schema.org y metadatos
+  * Sección de videos eliminada de `galeria.html` y de los enlaces de navegación
+  * Galería reducida a 3 imágenes: paisajismo, riego tecnificado y cultivo
+  * Assets sin uso eliminados (6 videos, 4 imágenes de movimiento y 6 imágenes de galería)
+  * Verificación en desktop y móvil; sin enlaces locales rotos
